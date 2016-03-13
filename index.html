@@ -8,14 +8,17 @@
 </head>
 <body class="landing">
 <div id="fb-root"></div>
-<script>(function (d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s);
-    js.id = id;
-    js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.5&appId=283333398345289";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
+<script>
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
 </script>
 
 <!-- Header -->
@@ -35,7 +38,7 @@
 
 <section id="events" class="wrapper style1 event-list">
     <div class="inner">
-        <article class="feature left">
+        <article class="feature left" data-event="1671623256438563">
             <div class="meta">
                 <span class="event-date">17.03.2016</span>,
                 <span class="event-start-time">18:00</span>
@@ -44,7 +47,7 @@
             <span class="image"><img src="events/angularjs/cover.png" alt=""/></span>
 
             <div class="content">
-                <h2>Modele zachowań klientów</h2>
+                <h2>Angular praktycznie i niepraktycznie</h2>
                 <p>
                     O Angularze - frameworku do budowania aplikacji webowych.<br/>
                     Prowadzący: <strong>Piotr Pietrzak</strong> i <strong>Dariusz Tomaszewski</strong>
@@ -53,13 +56,10 @@
                     <li>
                         <a href="events/angularjs" class="button alt">Więcej</a>
                     </li>
-                    <li>
-                        <a href="events/angularjs/#dolacz" class="button alt">Zapisz się!</a>
-                    </li>
                 </ul>
             </div>
         </article>
-        <article class="feature left">
+        <article class="feature left" data-event="1099353090115555">
             <div class="meta">
                 <span class="event-date">18.02.2016</span>,
                 <span class="event-start-time">18:00</span>
@@ -80,7 +80,7 @@
                 </ul>
             </div>
         </article>
-        <article class="feature left">
+        <article class="feature left" data-event="573573032796692">
             <div class="meta">
                 <span class="event-date">14.01.2016</span>,
                 <span class="event-start-time">18:00</span>
@@ -101,7 +101,7 @@
                 </ul>
             </div>
         </article>
-        <article class="feature left">
+        <article class="feature left" data-event="1731522750410148">
             <div class="meta">
                 <span class="event-date">17.12.2015</span>,
                 <span class="event-start-time">18:00</span>
@@ -123,8 +123,7 @@
                 </ul>
             </div>
         </article>
-
-        <article class="feature left">
+        <article class="feature left" data-event="986053874789725">
             <div class="meta">
                 <span class="event-date">19.11.2015</span>,
                 <span class="event-start-time">18:00</span>
@@ -184,12 +183,13 @@
 </footer>
 
 <!-- Scripts -->
+<script src="assets/js/env.js"></script>
+<script src="assets/js/facebook-events.js"></script>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/skel.min.js"></script>
 <script src="assets/js/knockout-3.3.0.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
-<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 <script src="assets/js/NewsletterViewModel.js"></script>
 <script>
     $(function () {

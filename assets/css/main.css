@@ -1098,6 +1098,31 @@ body.landing {
     font-weight: bold;
 }
 
+.event-list .content {
+    padding-right: 10px;
+}
+
+.event-list .actions {
+    float: left;
+}
+
+.event-list a.fb-stats {
+    display: block;
+    float: right;
+    padding: 0 10px;
+
+    text-decoration: none;
+    font-size: 0.9em;
+    line-height: 1.8em;
+    color: #777;
+}
+
+.event-list .fb-stats span {
+    display: block;
+    font-weight: 500;
+    font-size: 1.6em;
+}
+
 /* latin-ext */
 
 @font-face {
