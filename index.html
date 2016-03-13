@@ -33,14 +33,14 @@
     </ul>
 </section>
 
-<!-- One -->
-<section id="events" class="wrapper style1">
+<section id="events" class="wrapper style1 event-list">
     <div class="inner">
-        <article style="position:relative" class="feature left">
-            <div style="background:#fff;text-align:center;padding:5px 20px 5px 20px;position:absolute; bottom:-40px; right:0px;z-index:2;font-size:12px;">
-                <span style="font-weight:bold;">17.03.2016</span>,
-                <span style="font-weight:bold;">18:00</span>
-                <span style="">MFI Uniwersytet Gdański, Wita Stwosza 57 Gdańsk</span></div>
+        <article class="feature left">
+            <div class="meta">
+                <span class="event-date">17.03.2016</span>,
+                <span class="event-start-time">18:00</span>
+                <span>MFI Uniwersytet Gdański, Wita Stwosza 57 Gdańsk</span>
+            </div>
             <span class="image"><img src="events/angularjs/cover.png" alt=""/></span>
 
             <div class="content">
@@ -59,11 +59,12 @@
                 </ul>
             </div>
         </article>
-        <article style="position:relative" class="feature left">
-            <div style="background:#fff;text-align:center;padding:5px 20px 5px 20px;position:absolute; bottom:-40px; right:0px;z-index:2;font-size:12px;">
-                <span style="font-weight:bold;">18.02.2016</span>,
-                <span style="font-weight:bold;">18:00</span>
-                <span style="">MFI Uniwersytet Gdański, Wita Stwosza 57 Gdańsk</span></div>
+        <article class="feature left">
+            <div class="meta">
+                <span class="event-date">18.02.2016</span>,
+                <span class="event-start-time">18:00</span>
+                <span>MFI Uniwersytet Gdański, Wita Stwosza 57 Gdańsk</span>
+            </div>
             <span class="image"><img src="events/models/cover.png" alt=""/></span>
 
             <div class="content">
@@ -79,11 +80,12 @@
                 </ul>
             </div>
         </article>
-        <article style="position:relative" class="feature left">
-            <div style="background:#fff;text-align:center;padding:5px 20px 5px 20px;position:absolute; bottom:-40px; right:0px;z-index:2;font-size:12px;">
-                <span style="font-weight:bold;">14.01.2016</span>,
-                <span style="font-weight:bold;">18:00</span>
-                <span style="">Wydział MFI Uniwersytet Gdański, Wita Stwosza 57 Gdańsk</span></div>
+        <article class="feature left">
+            <div class="meta">
+                <span class="event-date">14.01.2016</span>,
+                <span class="event-start-time">18:00</span>
+                <span>Wydział MFI Uniwersytet Gdański, Wita Stwosza 57 Gdańsk</span>
+            </div>
             <span class="image"><img src="events/hadoop/cover.png" alt=""/></span>
 
             <div class="content">
@@ -99,11 +101,12 @@
                 </ul>
             </div>
         </article>
-        <article style="position:relative" class="feature left">
-            <div style="background:#fff;text-align:center;padding:5px 20px 5px 20px;position:absolute; bottom:-40px; right:0px;z-index:2;font-size:12px;">
-                <span style="font-weight:bold;">17.12.2015</span>,
-                <span style="font-weight:bold;">18:00</span>
-                <span style="">Wydział MFI Uniwersytet Gdański, Wita Stwosza 57 Gdańsk</span></div>
+        <article class="feature left">
+            <div class="meta">
+                <span class="event-date">17.12.2015</span>,
+                <span class="event-start-time">18:00</span>
+                <span>Wydział MFI Uniwersytet Gdański, Wita Stwosza 57 Gdańsk</span>
+            </div>
             <span class="image"><img src="events/tdd-solid/teaser.jpg" alt=""/></span>
 
             <div class="content">
@@ -121,11 +124,12 @@
             </div>
         </article>
 
-        <article style="position:relative" class="feature left">
-            <div style="background:#fff;text-align:center;padding:5px 20px 5px 20px;position:absolute; bottom:-40px; right:0px;z-index:2;font-size:12px;">
-                <span style="font-weight:bold;">19.11.2015</span>,
-                <span style="font-weight:bold;">18:00</span>
-                <span style="">Wydział MFI Uniwersytet Gdański, Wita Stwosza 57 Gdańsk</span></div>
+        <article class="feature left">
+            <div class="meta">
+                <span class="event-date">19.11.2015</span>,
+                <span class="event-start-time">18:00</span>
+                <span>Wydział MFI Uniwersytet Gdański, Wita Stwosza 57 Gdańsk</span>
+            </div>
             <span class="image"><img src="events/tdd-intro/teaser.jpg" alt=""/></span>
 
             <div class="content">
@@ -145,31 +149,24 @@
     </div>
 </section>
 
-
-<!-- Four -->
-<section id="four" class="wrapper style2 special">
+<section class="wrapper style2 special newsletter">
     <div class="inner">
-        <header class="major narrow">
+        <header class="major">
             <h2>Newsletter</h2>
-
-            <p>Zapisz się aby nic Cię nie ominęło</p>
+            <p>Informacje o nowych wydarzeniach</p>
         </header>
-        <form action="#" method="POST">
-            <div class="container 75%">
-                <div class="row uniform 50%">
-                    <div class="12u$">
-                        <input data-bind="value:email" name="email" placeholder="Email" type="email"/>
-                    </div>
-                </div>
-            </div>
+        <form action="//Kuznia.us12.list-manage.com/subscribe/post?u=1c61afc5aeccf630861719764&amp;id=25ec566d63"
+              method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+              target="_blank">
+            <input name="EMAIL" id="mce-EMAIL" placeholder="Email" type="email" required/>
             <ul class="actions">
-                <li><input type="button" data-bind="click:join" class="special" value="Zapisz się"/></li>
+                <li><input type="submit" class="button special" value="Subskrybuj" name="subscribe"
+                           id="mc-embedded-subscribe"/></li>
             </ul>
         </form>
     </div>
 </section>
 
-<!-- Footer -->
 <footer id="footer">
     <div class="inner">
         <ul class="icons">
@@ -191,11 +188,8 @@
 <script src="assets/js/skel.min.js"></script>
 <script src="assets/js/knockout-3.3.0.js"></script>
 <script src="assets/js/util.js"></script>
-<!--[if lte IE 8]>
-<script src="assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="assets/js/main.js"></script>
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-<script src="assets/js/alertify.min.js"></script>
 <script src="assets/js/NewsletterViewModel.js"></script>
 <script>
     $(function () {
