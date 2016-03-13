@@ -871,7 +871,8 @@ body.landing {
 #banner {
     padding: 8em 0 6em 0;
     color: rgba(255, 255, 255, 0.75);
-    background: #1E2832 url("../people.jpg") fixed;
+    background: #1E2832 fixed;
+    background-image: url("../overlay.png"), url("../people.jpg");
     background-size: cover;
     text-align: center;
 }
