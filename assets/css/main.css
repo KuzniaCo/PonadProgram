@@ -1124,6 +1124,10 @@ body.landing {
     font-size: 1.6em;
 }
 
+.legend {
+    list-style: none;
+}
+
 /* latin-ext */
 
 @font-face {
