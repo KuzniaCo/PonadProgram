@@ -63,6 +63,16 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 80em;
+    padding: 0 2em;
+}
+
+.container hr {
+    margin: 2em -2em;
+}
+
+.container ul,
+.container ol {
+    padding-left: 3em;
 }
 
 /* Grid */
