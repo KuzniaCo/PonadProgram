@@ -21,10 +21,13 @@
         var $el = $(this);
         var eventId = $el.data('event');
 
+
         eventStats(eventId, function (response) {
             if (response && !response.error) {
                 var stats = buildStatsHTML(eventId, response);
-                $el.find('.content').append(stats);
+                console.log('stats', stats);
+
+                $el.find('[data-event-placeholder]').append(stats);
             }
         });
     }

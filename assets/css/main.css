@@ -75,6 +75,11 @@ body {
     padding-left: 3em;
 }
 
+.container .description {
+    max-width: 670px;
+    margin: 0 auto;
+}
+
 /* Grid */
 
 /* Basic */
@@ -1117,7 +1122,7 @@ body.landing {
     float: left;
 }
 
-.event-list a.fb-stats {
+[data-event-placeholder] a.fb-stats {
     display: block;
     float: right;
     padding: 0 10px;
@@ -1128,7 +1133,11 @@ body.landing {
     color: #777;
 }
 
-.event-list .fb-stats span {
+#main [data-event-placeholder] a.fb-stats {
+    border-left: 1px dashed #CCC;
+}
+
+[data-event-placeholder] .fb-stats span {
     display: block;
     font-weight: 500;
     font-size: 1.6em;
