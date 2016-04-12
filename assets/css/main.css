@@ -1134,7 +1134,7 @@ body.landing {
 }
 
 #main [data-event-placeholder] a.fb-stats {
-    border-left: 1px dashed #CCC;
+    border-left: 1px solid #DDD;
 }
 
 [data-event-placeholder] .fb-stats span {
