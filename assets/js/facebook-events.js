@@ -25,8 +25,6 @@
         eventStats(eventId, function (response) {
             if (response && !response.error) {
                 var stats = buildStatsHTML(eventId, response);
-                console.log('stats', stats);
-
                 $el.find('[data-event-placeholder]').append(stats);
             }
         });
