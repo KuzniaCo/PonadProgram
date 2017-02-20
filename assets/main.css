@@ -378,6 +378,11 @@ input[type="email"]:focus {
     width: 100%;
 }
 
+.host-image {
+    max-width: 264px;
+    max-height: 264px;
+}
+
 /* List */
 
 ol {
